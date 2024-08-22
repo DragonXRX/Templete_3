@@ -1,0 +1,197 @@
+.container {
+    width: 100%;
+}
+
+/*+++++++++ Navigation +++++++++++*/
+
+.all_sub_menu {
+    width: 345%;
+    padding: 0;
+}
+
+.all_sub_menu .img {
+    flex-basis: 0;
+    display: none;
+}
+
+.all_sub_menu .all_links {
+    flex-basis: 100%;
+}
+
+
+header .navi {
+    flex-direction: column;
+    height: 118px;
+}
+
+.navi ul li a {
+    padding: 15px 12px;
+}
+
+.navi .logo {
+    padding: 15px;
+}
+
+
+.all_sub_menu .all_links .link1 ul li {
+    padding: 20px 0;
+}
+
+.all_sub_menu .all_links .link2 ul li {
+    padding: 20px 0;
+}
+
+/*+++++++++ Hero +++++++++++*/
+
+
+.Hero .container {
+    justify-content: center;
+    height: calc(73vh - 60px);
+}
+
+.Hero .container .img1 {
+    display: none;
+}
+
+.Hero .container .text1 {
+    text-align: center;
+    flex-basis: 100%;
+}
+
+
+/*+++++++++ Features +++++++++++*/
+
+.all_fea .ghil .tts::before {
+    top: -98%;
+}
+
+.all_fea .ghil .tts::after {
+    top: -91%;
+    left: 0;
+}
+
+.all_fea .ghil:hover .tts::after {
+    border-width: 234px 560px;
+}
+
+/*+++++++++ Team_Members +++++++++++*/
+
+
+.all_team .child_team .kos {
+    transform: translateX(-2%);
+}
+
+/*+++++++++ Our_skills +++++++++++*/
+
+.all_gh {
+    flex-direction: column;
+}
+
+.all_gh .ssk {
+    width: 100%;
+}
+
+/*+++++++++ How It Works ? +++++++++++*/
+
+.all_pp {
+    flex-direction: column;
+}
+
+
+.all_pp .ikl {
+    flex-basis: 100%;
+    margin-right: 0px;
+    margin-bottom: 40px;
+}
+
+
+/*+++++++++ LATEST EVENTS +++++++++++*/
+
+
+.big {
+    flex-direction: column;
+}
+
+.big .imgh {
+    flex-basis: 100%;
+}
+
+.big .clock {
+    flex-basis: 100%;
+}
+
+.email form {
+    width: 100%;
+}
+
+.email form input[type="email"] {
+    width: 67%;
+    margin-right: 10px;
+}
+
+.email form input[type="submit"] {
+    margin-left: 10px;
+    padding: 0;
+    width: 20%;
+    font-size: 12px;
+}
+
+.email form input {
+    margin: 0;
+}
+
+/*+++++++++ PRICING PLANS +++++++++++*/
+
+
+.all_pricing {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.all_pricing .plan:nth-child(2)::after {
+    top: 106px;
+}
+
+.all_pricing .plan:nth-child(2) {
+    transform: translateY(0%);
+}
+
+/*+++++++++ Top videos +++++++++++*/
+
+.all_vid {
+    flex-direction: column;
+}
+
+
+/*+++++++++ Request +++++++++++*/
+
+.Request .container .col_we_have {
+    padding: 0 30px 0 0;
+}
+
+.Request .container {
+    flex-direction: column;
+}
+
+.Request .container .col_we_have {
+    padding: 0 0 75px 0;
+}
+
+.Request .gh5 {
+    height: 52%;
+    width: 100%;
+}
+
+.Request .container .col_discount {
+    padding-top: 50px;
+}
+
+
+/*+++++++++ Footer +++++++++++*/
+
+.may_besness .lof {
+    text-align: center;
+}
+
+.may_besness .lof .icv {
+    justify-content: center;
+}
